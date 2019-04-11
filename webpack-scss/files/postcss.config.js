@@ -5,6 +5,7 @@ module.exports = {
     'postcss-reporter': { clearReportedMessages: true },
     'postcss-preset-env': {
       browsers: 'last 2 versions',
+      autoprefixer: { grid: true },
     },
     'css-mqpacker': {},
   },
